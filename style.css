@@ -6,6 +6,7 @@ h1{
     text-align:center;
 }
 .first{
+    width:100%;
     background-color: #d4a373;
     transition: background-color 300ms ease;
     margin-bottom: 50px;
