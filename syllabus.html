@@ -3,47 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="syllabus.png" type="image/x-icon">
     <title>Document</title>
+    <style>
+        body{
+    background-color: #ffbb84;  
+        }
+        
+th,td{
+    border-radius: 10px;
+    text-align: center;
+}
+
+table, th, td {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid #ffbb84;
+    border-collapse: collapse;
+  }
+  th, td {
+    background-color: #dba06f;
+  }
+  a{
+    text-decoration: none;
+    text-decoration-color: #523b28;
+    font-size: 40px;
+    color: #523b28;
+    font-weight: bold;
+
+  }
+  p{
+    text-decoration-color: #997150;
+  }
+  p{
+    text-align: center;
+    margin-bottom: 40px;
+    transition: text-decoration 1s ease;
+  }
+  p:hover{
+    text-decoration: underline  #523b28 4px;
+  }
+
+  
+    </style>
 </head>
 <body>
     <h1 style="text-align: center;color: #523b28;font-size: 100px;text-decoration: underline;">Syllabus</h1>
-    <h4><a href="index.html" style="font-size: 30px;color: #523b28;text-align: center;margin-left: auto;margin-right: auto;"> go back to main website</a></h4>
+    <p><a href="index.html" >Go to main site</a></p>
     <table>
         <tr>
-            <th>
-                head 1
-            </th>
-            <th>
-                head 2
-            </th>
-            <th>
-                head 3
-            </th>
+            <th colspan="2">Guitar syllabus</th>
+            <th>Beginner initial</th>
+            <th>Beginner+</th>
+            <th>Intermediate</th>
+            <th>Advanced</th>
+        </tr>
+        <th rowspan="3">Technical</th>
+        <th>Excerise</th>
+        <td>Single String note playing
+            5th fret spider
+            Learn strings name
+        </td>
+        <td>All fret spider
+            5th fret Hammer ons</td>
+        <td>Hammer ons, Pluck Off, Slides, Basic legato
+        </td>
+        <td>Legato</td>
+        <tr>
+            <th>Scale</th>
+            <td>Learn major scale formula
+                Learn major scale formula by playing</td>
+            <td>Learn/Play minor pentatonic shape</td>
+            <td>CAGED all shapes</td>
+            <td>Connect all CAGED shapes</td>
         </tr>
         <tr>
-            <td>
-                col 1
-            </td>
-            <td>
-                col 2
-            </td>
-            <td>
-                col 3
-            </td>
+            <th>Chords</th>
+            <td>Open chords</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        <tr>
+            <th rowspan="3">Songs</th>
+            <th>Rhythm</th>
+            <td>Hind: <br>English:Ed sheeran</td>
+            <td>English : summer of 69, Ed Sheeran</td>
+            <td>Hindi:Hindi : Kyon, Na aaye ho , Jo tum mere ho,Ajeeb daastan hai ye <br>English:</td>
+            <td></td>
         </tr>
         <tr>
-            <td>
-                col 1
-            </td>
-            <td>
-                col 2
-            </td>
-            <td>
-                col 3
-            </td>
+        <th>Fingerstyle</th>
+        <td></td>
+        <td>english : Fur elise, Wish You Were Here </td>
+        <td>Hindi: <br> English: Stairway to heaven, rewrite the starts</td>
+        <td></td>
+        </tr>
+        <tr>
+            <th>Solo</th>
+            <td>hindi : jan gan man, kal ho na ho, piku's theme <br>English : Happy B'day, Hedwig's theme</td>
+            <td>ajeeb daastan hai ye</td>
+            <td>Hindi : Sadda Haq, Aaoge tum kabhi <br>english : Bohemian Rhapsody, Stairway to heaven, Nothing else matters</td>
+            <td>English : Bohemian Rhapsody, Stairway to heaven, Nothing else matters,Hotel California, Comfortably numb, Sultans of swing</td>
         </tr>
     </table>
+    
 </body>
 </html> 
